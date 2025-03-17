@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'postgres:14.17-bookworm'
+          default: 'nginx:stable-perl'
 
 # env:
 #   REGISTRY: ghcr.io
